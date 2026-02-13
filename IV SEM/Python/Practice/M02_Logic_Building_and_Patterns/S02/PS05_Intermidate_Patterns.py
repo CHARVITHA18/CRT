@@ -1,11 +1,5 @@
 '''
-1.Pyramid
-n=4
-output:
-   *
-  * *
- * * *
-* * * * 
+
 
 li=[1,2,3,4,5]
 #output=[2,4,6,8,10]
@@ -28,7 +22,15 @@ print([i for i in li  if i%2==0])#list
 print(tuple(i for i in li  if i%2==0))#tuple
 print({i:i*2 for i in li  if i%2==0})#dictonary
 
-'''
 
 li1=['a','b','c']
 li2=['d','e','f']
+
+1.Pyramid
+n=4
+output:
+   *
+  * *
+ * * *
+* * * * 
+'''
