@@ -54,10 +54,15 @@ for i in range(n,0,-1):
 * * *
  * *
   *
-    '''
+   
 n=int(input()
       )
 
-
-
-git pull origin main
+5.palindrome pattern
+n=4
+output:
+1
+212
+32123
+4321234
+ '''

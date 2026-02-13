@@ -5,3 +5,6 @@ name="a";
 Name="A";#python is case sensitive
 print(name)
 print(Name)
+ 
+git commit -m "mes"
+git pull origin main 
