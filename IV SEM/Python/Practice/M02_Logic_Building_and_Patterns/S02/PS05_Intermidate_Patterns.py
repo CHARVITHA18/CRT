@@ -43,8 +43,21 @@ for i in range(1,n+1):
  * * *
   * *
    *
-'''
+
 n=int(input())
-for
+for i in range(n,0,-1):
+    print(" "*(n-i)+"* "*i)
+
+3.diamond patterns
+  *
+ * *
+* * *
+ * *
+  *
+    '''
+n=int(input()
+      )
 
 
+
+git pull origin main
