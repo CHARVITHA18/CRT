@@ -90,11 +90,7 @@ for i in range(1,n+1):
     print()
 
  
-Floyd Triange
-1
-2 3  
-4 5 6 
-7 8 9 10
+
 
 Hollow Square
 * * * * 4 at 0 sp
@@ -103,8 +99,22 @@ Hollow Square
 * * * * 4 st 0 sp
 
 
-n=int(input())
+def hollow_square(n):
+    for i in range(n):
+        if i == 0 or i == n - 1:
+            print("* " * n)
+        else:
+            print("* " + "  " * (n - 2) + "*")
 
-for i in range(n):
-    for j in range
-       '''
+hollow_square(4)
+
+Floyd Triange
+1
+2 3  
+4 5 6 
+7 8 9 10
+
+
+'''
+
+

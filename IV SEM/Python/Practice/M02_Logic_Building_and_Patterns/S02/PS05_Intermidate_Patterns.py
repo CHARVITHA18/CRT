@@ -55,8 +55,14 @@ for i in range(n,0,-1):
  * *
   *
    
-n=int(input()
-      )
+def diamond_pattern(n):
+    for i in range(1, n + 1):
+        print(" " * (n - i) + "* " * i)
+    for i in range(n - 1, 0, -1):
+        print(" " * (n - i) + "* " * i)
+
+diamond_pattern(3)
+
 
 5.palindrome pattern
 n=4
@@ -65,4 +71,18 @@ output:
 212
 32123
 4321234
+
+def palindrome_number_pattern(n):
+    for i in range(1, n + 1):
+        for j in range(i, 0, -1):
+            print(j, end="")
+        for j in range(2, i + 1):
+            print(j, end="")
+        print()
+
+palindrome_number_pattern(4)
+
+
+
+
  '''

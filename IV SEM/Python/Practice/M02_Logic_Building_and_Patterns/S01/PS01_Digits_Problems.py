@@ -31,7 +31,7 @@ while n>0:
     s+= (n%10)
     n //= 10 
 print(s)
-'''
+
 # count even and odd
 n=int(input())
 e=0
@@ -43,8 +43,20 @@ while(n>0):
         o+=1
 print(e)
 print(o)
-
+'''
 #digital sum from user
 # 789 ===> 24 ==> 6
 # 12345 ==>15 ==>6
 
+def get_digital_root(n):
+    while n >= 10:
+        step_sum = 0
+        while n > 0:
+            step_sum += n % 10
+            n //= 10
+        n = step_sum
+    return n
+
+
+print(get_digital_root(789))  
+print(get_digital_root(12345)) 

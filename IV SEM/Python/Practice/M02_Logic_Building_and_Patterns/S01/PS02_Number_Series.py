@@ -64,3 +64,18 @@ for i in range(n):
     dif =dif + (i + 1)
 
 #1,2,6,24,120....
+def generate_factorial_sequence(limit):
+    sequence = []
+    current_value = 1
+    
+    for i in range(1, limit + 1):
+        current_value *= i
+        sequence.append(current_value)
+        
+    return sequence
+
+terms = 6
+result = generate_factorial_sequence(terms)
+
+print(f"First {terms} terms of the sequence:")
+print(result)
