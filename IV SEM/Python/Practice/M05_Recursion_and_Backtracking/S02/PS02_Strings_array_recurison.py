@@ -20,6 +20,7 @@ print(Array_Sum1([10,20,30,40]))
 
 #REVERSING A LIST
 def reversing_array(nums,i,j):
+
     if i>=j:
         return
     nums[i],nums[j]=nums[j],nums[i]
